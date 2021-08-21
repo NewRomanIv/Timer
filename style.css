@@ -1,0 +1,78 @@
+.container {
+  display: inline-block;
+  position: relative;
+  justify-content: center;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: rgb(228, 228, 228);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.settingsButton {
+  display: grid;
+  justify-items: right;
+}
+
+.settingsButton button {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  border: none;
+  margin: 1% 2% 0 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+.settingsButton img {
+  width: 100%;
+  margin: 0;
+  background-color: transparent;
+}
+
+.settings {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.settings hr {
+  margin: 1% 1% 0 1%;
+}
+
+.settings input {
+  margin-top: 1%;
+  font-size: 8px;
+}
+
+.start_stop {
+  display: block;
+  text-align: center;
+  padding: 1% 0;
+}
+
+.hide {
+  display: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.timer {
+  display: inline-flex;
+}
+
+.field {
+  margin: 0 5px 5px 5px;
+  display: grid;
+  text-align: center;
+}
+
+.label {
+  font-size: 12px;
+}
+
+.value {
+  font-size: 3ex;
+  text-shadow: 0.2ex 0.2ex 0.2ex gray;
+}
